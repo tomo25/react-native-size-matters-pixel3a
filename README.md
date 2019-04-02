@@ -1,17 +1,7 @@
 # react-native-size-matters-iphonex-xs
-[![Build Status](https://travis-ci.org/nirsky/react-native-size-matters.svg)](https://travis-ci.org/nirsky/react-native-size-matters)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![NPM version](https://img.shields.io/npm/v/react-native-size-matters.svg)](https://www.npmjs.com/package/react-native-size-matters)   
 
-A React-Native utility belt for scaling the size your apps UI across different sized devices when building in IPhoneX or XS.
+A React-Native utility belt for scaling the size your apps UI across different sized devices when building on IPhoneX or XS.
 
-
-## Installation
-```js
-npm install --save react-native-size-matters-iphonex-xs
-//or:
-yarn add react-native-size-matters-iphonex-xs
-```
 
 ## Motivation
 When developing with react-native, you need to manually adjust your app to look great on variety of different screen sizes. That's a tedious job.  
@@ -20,13 +10,13 @@ But the idea of react-native-size-matters is to develop once on a standard ~5" s
 This will make your item's size a little bit different from what you want it to be when building on non standard ~5" screen mobile devices.
 In react-native-size-matters-iphonex-xs the standard size is the same with the size of IPhoneX and XS(width: 375, height: 812).
 This will enable us to build apps on IPhoneX and XS with no stress. 
-So when the desiner made an button with width: 200 , height: 100 in IphoneX or XS you can just style it as width: scale(200) , height: scale(100) and yu can get a perfect design on any device!
+So when the desiner made an button with width: 200 , height: 100 in IphoneX or XS you can just style it as width: scale(200) , height: scale(100) and you can get a perfect design on any device!
 
 
 ## Api
 ### Scaling Functions
 ```js
-import { scale, verticalScale, moderateScale } from 'react-native-size-matters-iphonex-xs';
+import { scale, verticalScale, moderateScale } from './react-native-size-matters-iphonex-xs';
 
 const Component = props =>
     <View style={{
@@ -52,7 +42,7 @@ If normal scale will increase your size by +2X, moderateScale will only increase
 
 ### ScaledSheet
 ```js
-import { ScaledSheet } from 'react-native-size-matters-iphonex-xs';
+import { ScaledSheet } from './react-native-size-matters-iphonex-xs';
 
 const styles = ScaledSheet.create(stylesObject)
 ```
@@ -65,7 +55,7 @@ ScaleSheet will take the same stylesObject a regular StyleSheet will take, plus 
 
 Example:
 ```js
-import { ScaledSheet } from 'react-native-size-matters-iphonex-xs';
+import { ScaledSheet } from './react-native-size-matters-iphonex-xs';
 
 const styles = ScaledSheet.create({
     container: {

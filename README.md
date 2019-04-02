@@ -1,31 +1,32 @@
-# react-native-size-matters
+# react-native-size-matters-iphonex-xs
 [![Build Status](https://travis-ci.org/nirsky/react-native-size-matters.svg)](https://travis-ci.org/nirsky/react-native-size-matters)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![NPM version](https://img.shields.io/npm/v/react-native-size-matters.svg)](https://www.npmjs.com/package/react-native-size-matters)   
 
-A React-Native utility belt for scaling the size your apps UI across different sized devices.
+A React-Native utility belt for scaling the size your apps UI across different sized devices when building in IPhoneX or XS.
 
-<a href="./examples/ipad.gif">
-    <img src="./examples/ipad.gif" width="320"/>
-</a>
 
 ## Installation
 ```js
-npm install --save react-native-size-matters
+npm install --save react-native-size-matters-iphonex-xs
 //or:
-yarn add react-native-size-matters
+yarn add react-native-size-matters-iphonex-xs
 ```
 
 ## Motivation
 When developing with react-native, you need to manually adjust your app to look great on variety of different screen sizes. That's a tedious job.  
 react-native-size-matters provides some simple tooling to make your scaling a whole lot easier.  
-The idea is to develop once on a standard ~5" screen mobile device and then simply apply the provided utils.  
-📖 You can read more about what led to this library on my blog post, that can be found in [this repo](./examples/BlogPost) or at [Soluto Engineering Blog](https://blog.solutotlv.com/size-matters/).
+But the idea of react-native-size-matters is to develop once on a standard ~5" screen mobile device and then simply apply the provided utils. 
+This will make your item's size a little bit different from what you want it to be when building on non standard ~5" screen mobile devices.
+In react-native-size-matters-iphonex-xs the standard size is the same with the size of IPhoneX and XS(width: 375, height: 812).
+This will enable us to build apps on IPhoneX and XS with no stress. 
+So when the desiner made an button with width: 200 , height: 100 in IphoneX or XS you can just style it as width: scale(200) , height: scale(100) and yu can get a perfect design on any device!
+
 
 ## Api
 ### Scaling Functions
 ```js
-import { scale, verticalScale, moderateScale } from 'react-native-size-matters';
+import { scale, verticalScale, moderateScale } from 'react-native-size-matters-iphonex-xs';
 
 const Component = props =>
     <View style={{
@@ -51,7 +52,7 @@ If normal scale will increase your size by +2X, moderateScale will only increase
 
 ### ScaledSheet
 ```js
-import { ScaledSheet } from 'react-native-size-matters';
+import { ScaledSheet } from 'react-native-size-matters-iphonex-xs';
 
 const styles = ScaledSheet.create(stylesObject)
 ```
@@ -64,7 +65,7 @@ ScaleSheet will take the same stylesObject a regular StyleSheet will take, plus 
 
 Example:
 ```js
-import { ScaledSheet } from 'react-native-size-matters';
+import { ScaledSheet } from 'react-native-size-matters-iphonex-xs';
 
 const styles = ScaledSheet.create({
     container: {
@@ -78,9 +79,3 @@ const styles = ScaledSheet.create({
     }
 });
 ```
-
-## Examples
-You can clone the [expo-example-app](./examples/expo-example-app) from this repo, run `npm install` and `npm start` and scan the presented QR code in the [Expo app](https://expo.io) on your preferred device.  
-The app has a on/off switch for using `react-native-size-matters`, so you can test yourself how the app will look with and without scaling.   
-It is expected to look good on every device you want - iOS or Android, phone or tablet, basically anything (please let me know if not).  
-There are also some attached screenshots in the repo if you don't feel like cloning.

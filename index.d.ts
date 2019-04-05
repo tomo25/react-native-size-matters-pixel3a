@@ -1,6 +1,6 @@
 import * as RN from "react-native";
 
-declare module "react-native-size-matters" {
+declare module "react-native-size-matters-iphonex-xs" {
 
     interface StringifiedStyles {
         fontSize?: string | number;

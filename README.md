@@ -1,7 +1,7 @@
 # react-native-size-matters-iphonex-xs
 
 A React-Native utility belt for scaling the size your apps UI across different sized devices when building on IPhoneX or XS.
-
+forked from https://github.com/nirsky/react-native-size-matters
 
 ## Motivation
 When developing with react-native, you need to manually adjust your app to look great on variety of different screen sizes. That's a tedious job.  

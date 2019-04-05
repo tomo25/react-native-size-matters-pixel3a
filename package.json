@@ -1,6 +1,6 @@
 {
   "name": "react-native-size-matters-iphonex-xs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React-Native utility belt for scaling the size your apps UI across different sized devices when building on IPhoneX or XS.",
   "main": "index.js",
   "directories": {

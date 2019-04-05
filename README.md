@@ -13,7 +13,8 @@ This will enable us to build apps on IPhoneX and XS with no stress.
 So when the desiner made an button with width: 200 , height: 100 in IphoneX or XS you can just style it as width: scale(200) , height: scale(100) and you can get a perfect design on any device!
 
 ## Installation
-```npm install --save react-native-size-matters-iphonex-xs
+```
+npm install --save react-native-size-matters-iphonex-xs
 //or:
 yarn add react-native-size-matters-iphonex-xs
 ```

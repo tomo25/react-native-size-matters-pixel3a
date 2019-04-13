@@ -23,5 +23,8 @@
     "chance": "^1.0.18",
     "rewire": "^4.0.1",
     "sinon": "^7.3.1"
+  },
+  "dependencies": {
+    "jest": "^24.7.1"
   }
 }

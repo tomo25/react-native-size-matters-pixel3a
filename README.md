@@ -1,5 +1,7 @@
 # react-native-size-matters-iphonex-xs
 
+[![npm version](https://badge.fury.io/js/react-native-size-matters-iphonex-xs.svg)](https://badge.fury.io/js/react-native-size-matters-iphonex-xs)
+
 A React-Native utility belt for scaling the size your apps UI across different sized devices when building on IPhoneX or XS.
 forked from https://github.com/nirsky/react-native-size-matters
 

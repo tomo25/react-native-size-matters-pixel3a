@@ -1,7 +1,7 @@
 {
   "name": "react-native-size-matters-pixel3a",
   "version": "1.0.5",
-  "description": "A React-Native utility belt for scaling the size your apps UI across different sized devices when building on IPhoneX or XS.",
+  "description": "A React-Native utility belt for scaling the size your apps UI across different sized devices when building on Pixel 3a.",
   "main": "index.js",
   "directories": {
     "lib": "lib"

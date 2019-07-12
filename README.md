@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/react-native-size-matters-pixel3a.svg)](https://badge.fury.io/js/react-native-size-matters-pixel3a)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A React-Native utility belt for scaling the size your apps UI across different sized devices when building on IPhoneX or XS.
+A React-Native utility belt for scaling the size your apps UI across different sized devices when building on Pixel 3a.
 forked from https://github.com/nirsky/react-native-size-matters
 
 ## Motivation
@@ -11,9 +11,9 @@ When developing with react-native, you need to manually adjust your app to look 
 react-native-size-matters provides some simple tooling to make your scaling a whole lot easier.  
 But the idea of react-native-size-matters is to develop once on a standard ~5" screen mobile device and then simply apply the provided utils. 
 This will make your item's size a little bit different from what you want it to be when building on non standard ~5" screen mobile devices.
-In react-native-size-matters-pixel3a the standard size is the same with the size of IPhoneX and XS(width: 375, height: 812).
-This will enable us to build apps on IPhoneX and XS with no stress. 
-So when the desiner made an button with width: 200 , height: 100 in IphoneX or XS you can just style it as width: scale(200) , height: scale(100) and you can get a perfect design on any device!
+In react-native-size-matters-pixel3a the standard size is the same with the size of Pixel 3a.
+This will enable us to build apps on Pixel 3a with no stress. 
+So when the desiner made an button with width: 200 , height: 100 in Pixel 3a you can just style it as width: scale(200) , height: scale(100) and you can get a perfect design on any device!
 
 ## Installation
 ```

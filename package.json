@@ -1,5 +1,5 @@
 {
-  "name": "react-native-size-matters-iphonex-xs",
+  "name": "react-native-size-matters-pixel3a",
   "version": "1.0.4",
   "description": "A React-Native utility belt for scaling the size your apps UI across different sized devices when building on IPhoneX or XS.",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomo25/react-native-size-matters-iphonex-xs.git"
+    "url": "git+https://github.com/tomo25/react-native-size-matters-pixel3a.git"
   },
   "author": "tomo <tomokitaoka25@gmail.com> (https://github.com/tomo25)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomo25/react-native-size-matters-iphonex-xs/issues"
+    "url": "https://github.com/tomo25/react-native-size-matters-pixel3a/issues"
   },
-  "homepage": "https://github.com/tomo25/react-native-size-matters-iphonex-xs#readme",
+  "homepage": "https://github.com/tomo25/react-native-size-matters-pixel3a#readme",
   "devDependencies": {
     "chance": "^1.0.18",
     "rewire": "^4.0.1",
